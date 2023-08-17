@@ -13,39 +13,41 @@
         <h2>Luas Segitiga</h2>
     </header>
     <main>
-        <img src="Assets/Rumus Luas Segitiga.png">
+        <img src="Assets/Rumus Luas Segitiga.png" class="tengah">
         <section class="input-section">
-            <label for="tinggi-input">Tinggi Segitiga</label>
+            <label for="tinggi-input">Tinggi Segitiga</label> 
             <input type="number" id="tinggi-input" placeholder="0">
             <label for="alas-input">Alas Segitiga</label>
-            <input type="number" id="tinggi-input" placeholder="0">
-            <section>   
-                <button>Go to Hitung Keliling</button>
-                <button>Hitung</button>
-                <button>Reset</button>
+            <input type="number" id="alas-input" placeholder="0">
+            <section>
+                <button type="submit" onclick="calculateArea()">Hitung</button>
+                <button type="reset" onclick="resetFormArea()">Reset</button>
+                <p id="result-area"></p>
             </section>
         </section>
     </main>
+    <script src="JavaScript/script..JS"></script>
 </body>
 <body>
     <header>
         <h2>Keliling Segitiga</h2>
     </header>
     <main>
-        <img src="Assets/1853786887.jpg" alt="Keliling Segitiga">
+        <img src="Assets/1853786887.jpg" alt="Keliling Segitiga" class="tengah">
         <section class="input-section">
-            <label for="Sisi-input">Sisi Segitiga</label>
-            <input type="number" id="Sisi-input" placeholder="0">
-            <label for="Sisi-input">Sisi Segitiga</label>
-            <input type="number" id="Sisi-input" placeholder="0">
-            <label for="Sisi-input">Sisi Segitiga</label>
-            <input type="number" id="Sisi-input" placeholder="0">
-            <section>   
-                <button>Go to Hitung Luas</button>
-                <button>Hitung</button>
-                <button>Reset</button>
+            <label for="sisi-input">Sisi Pertama</label> 
+            <input type="number" id="sisiPertama-input" placeholder="0">
+            <label for="sisi-input">Sisi Kedua</label>
+            <input type="number" id="sisiKedua-input" placeholder="0">
+            <label for="sisi-input">Sisi Ketiga</label>
+            <input type="number" id="sisiKetiga-input" placeholder="0">
+            <section>
+                <button type="submit" onclick="calculatePerimeter()">Hitung</button>
+                <button type="reset" onclick="resetFormPerimeter()">Reset</button>
+                <p id="result-perimeter"></p>
             </section>
         </section>
     </main>
+    
 </body>
 </html>
